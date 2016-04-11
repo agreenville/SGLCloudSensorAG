@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="TextBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="TextBox2.Text" xml:space="preserve">
+    <value>When you start the program for the first time there are a few setting you need to sort out. These  are all totally adjustable at any time when the programn is running so you don't have to be  concerned too much about what you input at the start.
+
+There are four Boxes, marked CLOUD, LIGHT CLOUD, CLEAR UNSTABLE &amp; CLEAR STABLE. For now enter 16,  18, 23 &amp; 23 respectively.
+
+In the other two boxes marked HIGH DIFFERENCE AND LOW DIFFERENCE enter 30000 and 1000 respectively.
+
+Please note that ALL inputs are as positives. You have no need to worry about any negative values  at all.
+ 
+
+Now choose the COM port your Arduino board is attached to. If you don't know then look under the  Hardware tab of your PC's System details where the COM ports will be listed. Choose this port in  the Cloud Sensors "Available Ports" window.
+
+Once you have done this, close and reopen the program. It will restart with your values populating  the boxes.
+
+ Now click the Connect button. Now go to Settings and choose the 3 second option (this is the chart  refresh rate). You should now be up and running with a graph of 5 colours worming its way slowly  across the graph.
+
+So what is happening and how do you calibrate it.
+
+Firstly there are 5 Traffic Lights indicating different conditions over head. The is "1 - CLOUDY",  "2 - MAINLY CLOUD", "3 - LIGHT CLOUD", "4 - CLEAR - UNSTABLE" &amp; "5 - CLEAR STABLE". The four  calibration boxes to the right of the traffic light are the temperature spilts for those lights.
+
+The top box marked "CLOUD" sets the split between "1 - CLOUDY" and "2 - MAINLY CLOUD". The number  16 in the box at the moment represents the sky temperature of -16°C - its cold up there. MAINLY  CLOUD is cloud with breaks in it in my book. I think of it as optimism or pessimism depending on  what it was earlier - you can choose something different if you wish.
+
+The box marked "LIGHT CLOUD" sets the split between "2 - MAINLY CLOUD" and "3 - LIGHT CLOUD".  "LIGHT CLOUD I think of as the wispy stuff. 
+
+The box marked CLEAR UNSTABLE sets the split between "3 - LIGHT CLOUD" and "4 - CLEAR - UNSTABLE".  Now CLEAR UNSTABLE is clear sky. The UNSTABLE part refers to a high variance in temperature  difference. This could be down to stuff in the atmosphere that you cannot see but is there all the  same. That ring of mush that makes the moon glow - stuff that causes scintillation - poor seeing  conditions. All of these invisible conditions can be detected and show up on the graph as quite  high variations of the temperature difference.
+
+The box marked CLEAR STABLE sets the split between "4 - CLEAR - UNSTABLE" and "5 - CLEAR STABLE".  CLEAR STABLE is very clear skies with good seeing. This is displayed on the graph as very small  variances in temperature differences. Not often seen and then only briefly in my location sadly.
+
+Now this version of the SGL Cloud Sensor not only uses temperature limits as splits between  different conditions, it also uses the temperature differences themselves to indicate how good the  seeing is. This is the purpose of the two boxes marked HIGH and LOW DIFFERENCE. Now although the  values in these boxes can and do represent very small temperature differences they do it using very  big positive numbers. Underneath them there is displayed the CURRENT DIFFERENCE and if you watch  this for a while, especially in light cloud you will see the values range from zero up to the 100's  of thousands. Now these values are used to determine how steady the atmosphere is. For example a  clear sky with excellent seeing can return values of less than 500 whereas wispy cloud can return  30000 or more. These values are used in conditons 4 &amp; 5. "5 - CLEAR - STABLE" conditions uses the  LOW DIFFERENCE value to determine if it is clear. If the temeprature split is equal or greater  (using positive values - its atually less in the real world) and the CURRENT DIFFERENCE is less  than the LOW DIFFERENCE then it is truly CLEAR and STABLE. IF CURRENT DIFFERENCE is greater then  the HIGH DIFFERENCE value kicks in. If the CURRENT DIFFERENCE is lower than the HIGH DIFFERENCE  then as long as the set value for "4 - CLEAR - UNSTABLE" is equal to or greater than the sky  temperature then it is "4 - CLEAR UNSTABLE). If the CURRENT DIFFERENCE is greater than the HIGH  DIFFERENCE then "3 - LIGHT CLOUD" kicks in.
+
+States 1 and 2 are just temperature limited - you wouldn't be imaging anyway with them.
+
+It sounds complicated perhaps but it isn't difficult to set up but will require a bit of time  calibrating. You will soon get your head round it though and hopefully find it quite useful.
+
+There is one other light that comes up and that is if the sensor gets wet - either by rain or dew.  It is not intended a a rain detector so do not rely on it. It can be raining for a bit before the  sensor is covered with water. Of course if you are running the heater element quite hard then this  may never trigger - it certainly shouldn't with dew anyway but even rain may struggle.
+
+About the temperatures used. The program uses average readings for its calculations to try and  smooth out any big spikes. The average is of the three previous readings each 3 seconds apart. Look  at the graph and you can see two pairs of lines - the red and green of the temperature differences  and the blue and pink of the sky temperature and the sky temperature average. You will notice that  the average lines always start in the middle of the graph. You will also notice that the wild  spikes are the areas of bad seeing. Solid cloud can give very smooth lines indeed. 
+
+Any problems, questions or bugs then please get in touch.
+
+</value>
+  </data>
+</root>
