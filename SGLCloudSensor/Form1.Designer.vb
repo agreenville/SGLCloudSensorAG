@@ -774,14 +774,14 @@ Partial Class Form1
         Me.ChartSkyTemp.BackSecondaryColor = System.Drawing.Color.LightSteelBlue
         ChartArea2.AxisX2.CustomLabels.Add(CustomLabel1)
         ChartArea2.AxisX2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
-        ChartArea2.AxisY.LabelStyle.Interval = 10.0R
+        ChartArea2.AxisY.LabelStyle.Interval = 5.0R
+        ChartArea2.AxisY.MajorGrid.Interval = 5.0R
+        ChartArea2.AxisY.MajorTickMark.Interval = 5.0R
         ChartArea2.AxisY.Maximum = 35.0R
-        ChartArea2.AxisY.Minimum = -15.0R
+        ChartArea2.AxisY.Minimum = -10.0R
         ChartArea2.AxisY.Title = "Temperature"
         ChartArea2.AxisY.TitleFont = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         ChartArea2.AxisY2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
-        ChartArea2.AxisY2.MajorGrid.Interval = 0R
-        ChartArea2.AxisY2.MajorTickMark.Interval = 10.0R
         ChartArea2.AxisY2.MinorGrid.Enabled = True
         ChartArea2.BackColor = System.Drawing.Color.WhiteSmoke
         ChartArea2.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
@@ -867,7 +867,6 @@ Partial Class Form1
         '
         'IsSafeTextBox
         '
-        Me.IsSafeTextBox.Enabled = False
         Me.IsSafeTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IsSafeTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.IsSafeTextBox.HideSelection = False
