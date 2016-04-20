@@ -227,14 +227,7 @@ Public Class Form1
 
     End Sub
     Private Sub IsSafeTextBox_TextChanged(sender As Object, e As EventArgs) Handles IsSafeTextBox.TextChanged
-        Recall_Limits() ''' not sure this is working correctly yet
-        If DifferenceTemp > (-(lolimit * 100)) And oldtemp < (butlim * 100) Then
-            IsSafeTextBox.Text = "Not Safe"
-            IsSafeTextBox.BackColor = Color.Red
-        Else
-            IsSafeTextBox.Text = "Safe"
-            IsSafeTextBox.BackColor = Color.LightGreen
-        End If
+        Timer2.Start()
 
     End Sub
     Sub Set_Cloud_State(ByVal ReqState As String)
@@ -816,12 +809,20 @@ Public Class Form1
 
     End Sub
 
-    Private Sub IsSafeButton_CheckedChanged(sender As Object, e As EventArgs)
-        '''add ascom check for issafe and make button turn on
-        '''  If case = "Cloud" Then
-        '''  IsSafeButton.AppearanceChanged()
-        '''  End If
+
+    Private Sub RectangleShape1_Click(sender As Object, e As EventArgs) Handles RectangleShape1.Click
 
     End Sub
 
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        Recall_Limits() ''' working but need to refine below criteria
+        If DifferenceTemp > (-(lolimit * 100)) Then
+            IsSafeTextBox.Text = "Not Safe"
+            IsSafeTextBox.BackColor = Color.Red
+        End If
+        If DifferenceTemp < (-(lolimit * 100)) Then
+            IsSafeTextBox.Text = "Safe"
+            IsSafeTextBox.BackColor = Color.LightGreen
+        End If
+    End Sub
 End Class
