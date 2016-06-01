@@ -779,7 +779,7 @@ Partial Class Form1
         ChartArea12.AxisY.MajorGrid.Interval = 5.0R
         ChartArea12.AxisY.MajorTickMark.Interval = 5.0R
         ChartArea12.AxisY.Maximum = 35.0R
-        ChartArea12.AxisY.Minimum = -10.0R
+        ChartArea12.AxisY.Minimum = -25.0R
         ChartArea12.AxisY.Title = "Temperature"
         ChartArea12.AxisY.TitleFont = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         ChartArea12.AxisY2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
