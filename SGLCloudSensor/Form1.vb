@@ -212,7 +212,7 @@ Public Class Form1
                 AddNewPoint(IRAm / 100, timeStamp, ChartSkyTemp.Series("Sensor Temp"))
                 'AddNewPoint(DifferenceTemp / 100, timeStamp, ChartSkyTemp.Series("Sky-Amb Temp"))
 
-                FileWriteString = DateAndTime.DateString + " " + DateAndTime.TimeString + "," + (TextAmbTemp.Text) + "," + (TextSkyTemp.Text) + "," + (Sensorambient.Text) + "," + (T_LIGHT_LABEL.Text) + "," + Str(DifferenceTemp)
+                FileWriteString = DateAndTime.DateString + " " + DateAndTime.TimeString + "," + (TextAmbTemp.Text) + "," + (TextSkyTemp.Text) + "," + (Sensorambient.Text) + "," + (T_LIGHT_LABEL.Text) + "," + Str(DifferenceTemp / 100) + "," + (IsSafeTextBox.Text)
                 Dim ioFile As New System.IO.StreamWriter(("C:\CloudData\SGL_Cloud_Data.txt"), True)
                 ioFile.WriteLine(FileWriteString)
                 ioFile.Close()
