@@ -30,20 +30,22 @@ Partial Class Contact
         '
         Me.ContactText.BackColor = System.Drawing.SystemColors.Menu
         Me.ContactText.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ContactText.Location = New System.Drawing.Point(12, 12)
+        Me.ContactText.Location = New System.Drawing.Point(16, 15)
+        Me.ContactText.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ContactText.Name = "ContactText"
         Me.ContactText.ReadOnly = True
         Me.ContactText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
-        Me.ContactText.Size = New System.Drawing.Size(360, 218)
+        Me.ContactText.Size = New System.Drawing.Size(480, 268)
         Me.ContactText.TabIndex = 0
         Me.ContactText.Text = resources.GetString("ContactText.Text")
         '
         'Contact
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(382, 239)
+        Me.ClientSize = New System.Drawing.Size(509, 294)
         Me.Controls.Add(Me.ContactText)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Contact"
         Me.Text = "Contact Details"
         Me.ResumeLayout(False)

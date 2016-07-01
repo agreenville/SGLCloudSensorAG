@@ -825,4 +825,8 @@ Public Class Form1
             IsSafeTextBox.BackColor = Color.LightGreen
         End If
     End Sub
+
+    Private Sub DataLoggingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataLoggingToolStripMenuItem.Click
+        Form4.Show()
+    End Sub
 End Class
