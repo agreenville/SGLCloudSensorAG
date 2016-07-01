@@ -815,7 +815,7 @@ Public Class Form1
     End Sub
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-        Recall_Limits() ''' working but need to refine below criteria
+        Recall_Limits()
         If DifferenceTemp <= (lolimit * 100) Then
             IsSafeTextBox.Text = "Not Safe"
             IsSafeTextBox.BackColor = Color.Red

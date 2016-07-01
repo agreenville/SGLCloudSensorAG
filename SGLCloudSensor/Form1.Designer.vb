@@ -37,6 +37,7 @@ Partial Class Form1
         Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Dim Series8 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Dim Series9 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloudSensorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -901,6 +902,7 @@ Partial Class Form1
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.MAIN_PANEL)
         Me.Controls.Add(Me.ChartSkyTemp)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "SGL Cloud Sensor Evo - v3.1  "
