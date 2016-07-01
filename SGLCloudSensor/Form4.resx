@@ -128,8 +128,6 @@ Sky Temperature
 Sensor Temperature
 Conditions
 Difference between Ambient Temperature and Sky Temperature
-IsSafe	
-
-</value>
+IsSafe</value>
   </data>
 </root>

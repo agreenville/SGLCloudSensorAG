@@ -35,9 +35,9 @@ Partial Class Form4
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
         Me.TextBox1.Size = New System.Drawing.Size(561, 181)
         Me.TextBox1.TabIndex = 0
+        Me.TextBox1.TabStop = False
         Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         '
         'TextBox2
@@ -52,6 +52,7 @@ Partial Class Form4
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(327, 22)
         Me.TextBox2.TabIndex = 1
+        Me.TextBox2.TabStop = False
         Me.TextBox2.Text = "Logging file data fields"
         '
         'Button1
