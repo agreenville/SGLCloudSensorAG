@@ -23,20 +23,20 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series10 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series11 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series12 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim CustomLabel2 As System.Windows.Forms.DataVisualization.Charting.CustomLabel = New System.Windows.Forms.DataVisualization.Charting.CustomLabel()
-        Dim Legend4 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series13 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series14 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series15 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series16 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series17 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series18 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim CustomLabel1 As System.Windows.Forms.DataVisualization.Charting.CustomLabel = New System.Windows.Forms.DataVisualization.Charting.CustomLabel()
+        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series5 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series6 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series8 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series9 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloudSensorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -53,6 +53,7 @@ Partial Class Form1
         Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContactToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DataLoggingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MAIN_PANEL = New System.Windows.Forms.Panel()
         Me.Cur_Avg = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -106,7 +107,6 @@ Partial Class Form1
         Me.loggingcheck = New System.Windows.Forms.CheckBox()
         Me.IsSafeTextBox = New System.Windows.Forms.TextBox()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
-        Me.DataLoggingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.MAIN_PANEL.SuspendLayout()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -219,6 +219,12 @@ Partial Class Form1
         Me.ContactToolStripMenuItem.Name = "ContactToolStripMenuItem"
         Me.ContactToolStripMenuItem.Size = New System.Drawing.Size(211, 26)
         Me.ContactToolStripMenuItem.Text = "Contact"
+        '
+        'DataLoggingToolStripMenuItem
+        '
+        Me.DataLoggingToolStripMenuItem.Name = "DataLoggingToolStripMenuItem"
+        Me.DataLoggingToolStripMenuItem.Size = New System.Drawing.Size(211, 26)
+        Me.DataLoggingToolStripMenuItem.Text = "Data Logging"
         '
         'MAIN_PANEL
         '
@@ -702,33 +708,33 @@ Partial Class Form1
         '
         'Chart2
         '
-        ChartArea3.Name = "ChartArea1"
-        Me.Chart2.ChartAreas.Add(ChartArea3)
-        Legend3.Name = "Legend1"
-        Me.Chart2.Legends.Add(Legend3)
+        ChartArea1.Name = "ChartArea1"
+        Me.Chart2.ChartAreas.Add(ChartArea1)
+        Legend1.Name = "Legend1"
+        Me.Chart2.Legends.Add(Legend1)
         Me.Chart2.Location = New System.Drawing.Point(21, 148)
         Me.Chart2.Name = "Chart2"
-        Series10.ChartArea = "ChartArea1"
-        Series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series10.Legend = "Legend1"
-        Series10.Name = "Temp Sky"
-        Series10.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series10.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series11.ChartArea = "ChartArea1"
-        Series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series11.Legend = "Legend1"
-        Series11.Name = "Temp Amb"
-        Series11.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series11.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series12.ChartArea = "ChartArea1"
-        Series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
-        Series12.Legend = "Legend1"
-        Series12.Name = "Temp Diff"
-        Series12.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series12.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Me.Chart2.Series.Add(Series10)
-        Me.Chart2.Series.Add(Series11)
-        Me.Chart2.Series.Add(Series12)
+        Series1.ChartArea = "ChartArea1"
+        Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series1.Legend = "Legend1"
+        Series1.Name = "Temp Sky"
+        Series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series2.ChartArea = "ChartArea1"
+        Series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series2.Legend = "Legend1"
+        Series2.Name = "Temp Amb"
+        Series2.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series2.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series3.ChartArea = "ChartArea1"
+        Series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
+        Series3.Legend = "Legend1"
+        Series3.Name = "Temp Diff"
+        Series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series3.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Me.Chart2.Series.Add(Series1)
+        Me.Chart2.Series.Add(Series2)
+        Me.Chart2.Series.Add(Series3)
         Me.Chart2.Size = New System.Drawing.Size(942, 287)
         Me.Chart2.TabIndex = 105
         Me.Chart2.Text = "Chart1"
@@ -774,80 +780,80 @@ Partial Class Form1
         Me.ChartSkyTemp.BackColor = System.Drawing.Color.SlateGray
         Me.ChartSkyTemp.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
         Me.ChartSkyTemp.BackSecondaryColor = System.Drawing.Color.LightSteelBlue
-        ChartArea4.AxisX2.CustomLabels.Add(CustomLabel2)
-        ChartArea4.AxisX2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
-        ChartArea4.AxisY.LabelStyle.Interval = 5.0R
-        ChartArea4.AxisY.MajorGrid.Interval = 5.0R
-        ChartArea4.AxisY.MajorTickMark.Interval = 5.0R
-        ChartArea4.AxisY.Maximum = 35.0R
-        ChartArea4.AxisY.Minimum = -25.0R
-        ChartArea4.AxisY.Title = "Temperature"
-        ChartArea4.AxisY.TitleFont = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ChartArea4.AxisY2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
-        ChartArea4.AxisY2.MinorGrid.Enabled = True
-        ChartArea4.BackColor = System.Drawing.Color.WhiteSmoke
-        ChartArea4.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
-        ChartArea4.BackSecondaryColor = System.Drawing.Color.LightSteelBlue
-        ChartArea4.Name = "ChartArea1"
-        Me.ChartSkyTemp.ChartAreas.Add(ChartArea4)
-        Legend4.BackColor = System.Drawing.Color.Gainsboro
-        Legend4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Legend4.IsTextAutoFit = False
-        Legend4.Name = "Legend1"
-        Me.ChartSkyTemp.Legends.Add(Legend4)
+        ChartArea2.AxisX2.CustomLabels.Add(CustomLabel1)
+        ChartArea2.AxisX2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
+        ChartArea2.AxisY.LabelStyle.Interval = 5.0R
+        ChartArea2.AxisY.MajorGrid.Interval = 5.0R
+        ChartArea2.AxisY.MajorTickMark.Interval = 5.0R
+        ChartArea2.AxisY.Maximum = 35.0R
+        ChartArea2.AxisY.Minimum = -25.0R
+        ChartArea2.AxisY.Title = "Temperature"
+        ChartArea2.AxisY.TitleFont = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ChartArea2.AxisY2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
+        ChartArea2.AxisY2.MinorGrid.Enabled = True
+        ChartArea2.BackColor = System.Drawing.Color.WhiteSmoke
+        ChartArea2.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
+        ChartArea2.BackSecondaryColor = System.Drawing.Color.LightSteelBlue
+        ChartArea2.Name = "ChartArea1"
+        Me.ChartSkyTemp.ChartAreas.Add(ChartArea2)
+        Legend2.BackColor = System.Drawing.Color.Gainsboro
+        Legend2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Legend2.IsTextAutoFit = False
+        Legend2.Name = "Legend1"
+        Me.ChartSkyTemp.Legends.Add(Legend2)
         Me.ChartSkyTemp.Location = New System.Drawing.Point(0, 174)
         Me.ChartSkyTemp.Margin = New System.Windows.Forms.Padding(4)
         Me.ChartSkyTemp.Name = "ChartSkyTemp"
-        Series13.ChartArea = "ChartArea1"
-        Series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series13.Color = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Series13.Legend = "Legend1"
-        Series13.MarkerColor = System.Drawing.Color.White
-        Series13.Name = "Sky Temp"
-        Series13.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series13.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series14.ChartArea = "ChartArea1"
-        Series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series14.Color = System.Drawing.Color.Fuchsia
-        Series14.Legend = "Legend1"
-        Series14.MarkerColor = System.Drawing.Color.White
-        Series14.Name = "Sky Temp Average"
-        Series14.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series14.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series15.ChartArea = "ChartArea1"
-        Series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series15.Color = System.Drawing.Color.Orange
-        Series15.Legend = "Legend1"
-        Series15.Name = "Ambient Temp"
-        Series15.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series15.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series16.ChartArea = "ChartArea1"
-        Series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series16.Color = System.Drawing.Color.OrangeRed
-        Series16.Legend = "Legend1"
-        Series16.Name = "Temp Diff"
-        Series16.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series16.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series17.ChartArea = "ChartArea1"
-        Series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series17.Color = System.Drawing.Color.Lime
-        Series17.Legend = "Legend1"
-        Series17.MarkerColor = System.Drawing.Color.White
-        Series17.Name = "Temp Diff Average"
-        Series17.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
-        Series17.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series18.ChartArea = "ChartArea1"
-        Series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series18.Color = System.Drawing.Color.Yellow
-        Series18.Legend = "Legend1"
-        Series18.Name = "Sensor Temp"
-        Series18.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Me.ChartSkyTemp.Series.Add(Series13)
-        Me.ChartSkyTemp.Series.Add(Series14)
-        Me.ChartSkyTemp.Series.Add(Series15)
-        Me.ChartSkyTemp.Series.Add(Series16)
-        Me.ChartSkyTemp.Series.Add(Series17)
-        Me.ChartSkyTemp.Series.Add(Series18)
+        Series4.ChartArea = "ChartArea1"
+        Series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series4.Color = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Series4.Legend = "Legend1"
+        Series4.MarkerColor = System.Drawing.Color.White
+        Series4.Name = "Sky Temp"
+        Series4.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series4.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series5.ChartArea = "ChartArea1"
+        Series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series5.Color = System.Drawing.Color.Fuchsia
+        Series5.Legend = "Legend1"
+        Series5.MarkerColor = System.Drawing.Color.White
+        Series5.Name = "Sky Temp Average"
+        Series5.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series5.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series6.ChartArea = "ChartArea1"
+        Series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series6.Color = System.Drawing.Color.Orange
+        Series6.Legend = "Legend1"
+        Series6.Name = "Ambient Temp"
+        Series6.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series6.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series7.ChartArea = "ChartArea1"
+        Series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series7.Color = System.Drawing.Color.OrangeRed
+        Series7.Legend = "Legend1"
+        Series7.Name = "Temp Diff"
+        Series7.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series7.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series8.ChartArea = "ChartArea1"
+        Series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series8.Color = System.Drawing.Color.Lime
+        Series8.Legend = "Legend1"
+        Series8.MarkerColor = System.Drawing.Color.White
+        Series8.Name = "Temp Diff Average"
+        Series8.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time
+        Series8.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series9.ChartArea = "ChartArea1"
+        Series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series9.Color = System.Drawing.Color.Yellow
+        Series9.Legend = "Legend1"
+        Series9.Name = "Sensor Temp"
+        Series9.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Me.ChartSkyTemp.Series.Add(Series4)
+        Me.ChartSkyTemp.Series.Add(Series5)
+        Me.ChartSkyTemp.Series.Add(Series6)
+        Me.ChartSkyTemp.Series.Add(Series7)
+        Me.ChartSkyTemp.Series.Add(Series8)
+        Me.ChartSkyTemp.Series.Add(Series9)
         Me.ChartSkyTemp.Size = New System.Drawing.Size(1213, 353)
         Me.ChartSkyTemp.TabIndex = 105
         Me.ChartSkyTemp.Text = "Chart1"
@@ -881,12 +887,6 @@ Partial Class Form1
         'Timer2
         '
         '
-        'DataLoggingToolStripMenuItem
-        '
-        Me.DataLoggingToolStripMenuItem.Name = "DataLoggingToolStripMenuItem"
-        Me.DataLoggingToolStripMenuItem.Size = New System.Drawing.Size(211, 26)
-        Me.DataLoggingToolStripMenuItem.Text = "Data Logging"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -903,7 +903,7 @@ Partial Class Form1
         Me.Controls.Add(Me.ChartSkyTemp)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
-        Me.Text = "SGL Cloud Sensor Evo AG - v3  "
+        Me.Text = "SGL Cloud Sensor Evo AG - v3.1  "
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.MAIN_PANEL.ResumeLayout(False)
