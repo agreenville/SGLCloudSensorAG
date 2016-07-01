@@ -903,7 +903,7 @@ Partial Class Form1
         Me.Controls.Add(Me.ChartSkyTemp)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
-        Me.Text = "SGL Cloud Sensor Evo AG - v3.1  "
+        Me.Text = "SGL Cloud Sensor Evo - v3.1  "
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.MAIN_PANEL.ResumeLayout(False)
