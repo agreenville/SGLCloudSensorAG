@@ -787,7 +787,7 @@ Partial Class Form1
         ChartArea2.AxisY.MajorGrid.Interval = 5.0R
         ChartArea2.AxisY.MajorTickMark.Interval = 5.0R
         ChartArea2.AxisY.Maximum = 35.0R
-        ChartArea2.AxisY.Minimum = -25.0R
+        ChartArea2.AxisY.Minimum = -35.0R
         ChartArea2.AxisY.Title = "Temperature"
         ChartArea2.AxisY.TitleFont = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         ChartArea2.AxisY2.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.[False]
@@ -905,7 +905,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
-        Me.Text = "SGL Cloud Sensor Evo - v3.1  "
+        Me.Text = "SGL Cloud Sensor Evo - v3.2"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.MAIN_PANEL.ResumeLayout(False)
