@@ -231,7 +231,7 @@ Public Class Form1
 
     End Sub
     Sub Set_Cloud_State(ByVal ReqState As String)
-        Dim FileWriteString As String
+        ' Dim FileWriteString As String
         Select Case ReqState
             Case "Cloud"
                 CLOUD_LIGHT.Visible = True
@@ -274,10 +274,6 @@ Public Class Form1
         End Select
 
     End Sub
-
-
-
-
 
     Private Sub OffToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OffToolStripMenuItem.Click
         EnableLogging()
@@ -473,6 +469,8 @@ Public Class Form1
     Private Sub ButConn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButConn.Click
         If Me.SerialPort1.IsOpen = False Then Me.SerialPort1.PortName = TXTCommPort.Text
         If Me.SerialPort1.IsOpen = False Then Me.SerialPort1.Open()
+
+
     End Sub
 
 
@@ -813,7 +811,6 @@ Public Class Form1
     Private Sub RectangleShape1_Click(sender As Object, e As EventArgs) Handles RectangleShape1.Click
 
     End Sub
-
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         Recall_Limits()
         If DifferenceTemp <= (lolimit * 100) Then
@@ -829,4 +826,8 @@ Public Class Form1
     Private Sub DataLoggingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataLoggingToolStripMenuItem.Click
         Form4.Show()
     End Sub
+
+
+
+
 End Class

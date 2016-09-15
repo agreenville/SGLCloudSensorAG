@@ -108,6 +108,8 @@ Partial Class Form1
         Me.loggingcheck = New System.Windows.Forms.CheckBox()
         Me.IsSafeTextBox = New System.Windows.Forms.TextBox()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.TimerASCOM = New System.Windows.Forms.Timer(Me.components)
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.MenuStrip1.SuspendLayout()
         Me.MAIN_PANEL.SuspendLayout()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -888,6 +890,10 @@ Partial Class Form1
         'Timer2
         '
         '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -988,4 +994,6 @@ Partial Class Form1
     Friend WithEvents IsSafeTextBox As TextBox
     Friend WithEvents Timer2 As Timer
     Friend WithEvents DataLoggingToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TimerASCOM As Timer
+    Friend WithEvents PrintDialog1 As PrintDialog
 End Class
